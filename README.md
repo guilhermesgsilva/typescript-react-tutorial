@@ -1,6 +1,6 @@
 # React Native: Custom Tab Radio & Filter List Data Tutorial App
 
-Based on the [React & TypeScript - Course for Beginners - Tutorial](https://www.youtube.com/watch?v=FJDVKeh7RJI).
+Based on [React & TypeScript - Course for Beginners](https://www.youtube.com/watch?v=FJDVKeh7RJI).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
