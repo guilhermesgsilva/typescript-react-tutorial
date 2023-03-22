@@ -41,8 +41,8 @@ const ToDoList = ({
       <Droppable droppableId="ToDosRemove">
         {(provided, snapshot) => (
           <div
-            className={`to-dos remove ${
-              snapshot.isDraggingOver ? "dragcomplete" : ""
+            className={`to-dos ${
+              snapshot.isDraggingOver ? "dragcomplete" : "remove"
             }`}
             ref={provided.innerRef}
             {...provided.droppableProps}
