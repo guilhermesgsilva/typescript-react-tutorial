@@ -53,8 +53,7 @@ const SingleToDo = ({
 
   return (
     <Draggable draggableId={toDo.id.toString()} index={index}>
-      {(provided, snapshot) => {
-        return (
+      {(provided, snapshot) => (
           <form
             className={`to-dos__single ${snapshot.isDragging ? "drag" : ""}`}
             onSubmit={(e) => {
@@ -90,8 +89,8 @@ const SingleToDo = ({
               </span>
             </div>
           </form>
-        );
-      }}
+        )
+      }
     </Draggable>
   );
 };
