@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import InputField from "./components/InputField";
 import { ToDo } from "./model";
